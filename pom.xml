@@ -25,5 +25,10 @@
             <artifactId>testng</artifactId>
             <version>7.6.1</version>
         </dependency>
+        <dependency>
+            <groupId>com.graphql-java</groupId>
+            <artifactId>graphql-java</artifactId>
+            <version>19.2</version>
+        </dependency>
     </dependencies>
 </project>
