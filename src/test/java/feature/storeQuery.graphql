@@ -1,0 +1,8 @@
+query store ($id: ID, $storeCode: String) {
+    store (id: $id, storeCode: $storeCode) {
+        alternativeLocales
+        code
+        defaultCurrency
+        defaultLocale
+    }
+}

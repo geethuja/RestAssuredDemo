@@ -1,0 +1,18 @@
+type Query {
+    store(id: ID, storeCode: String): Store
+}
+
+type Store {
+    alternativeLocales: [String!]
+    code: ID!
+    defaultCurrency: String!
+    defaultLocale: String!
+}
+
+enum StoreCode {
+    AT
+    DE
+    ES
+    NL
+    US
+}
